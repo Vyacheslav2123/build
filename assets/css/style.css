@@ -441,7 +441,7 @@ a {
 }
 @media screen and (max-width: 1269px) { 
     h1 {
-        font-size: 30px;
+        font-size: 35px !important;
     }
     .subcatalog__inner-container {
         width: 100%;
