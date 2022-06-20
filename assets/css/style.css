@@ -411,6 +411,8 @@ a {
     margin-bottom: 20px;
 }
 .address__inner-img {
+    width: 20px;
+    height: 20px;
     margin-right: 10px;
 }
 .messengers {
