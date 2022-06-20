@@ -425,11 +425,11 @@ a {
     height: 50px;
 }
 .telegram {
-     background: url(../img/telegram.png) center no-repeat;
+     background: url(../img/telegram.svg) center no-repeat;
      background-size: cover;
 }
 .whatsapp {
-     background: url(../img/whatsapp.png) center no-repeat;
+     background: url(../img/whatsapp.svg) center no-repeat;
      background-size: cover;
 }
 @media screen and (max-width: 1269px) { 
