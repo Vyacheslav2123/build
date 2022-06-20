@@ -440,6 +440,9 @@ a {
      background-size: cover;
 }
 @media screen and (max-width: 1269px) { 
+    h1 {
+        font-size: 30px;
+    }
     .subcatalog__inner-container {
         width: 100%;
         margin-top: 40%;
