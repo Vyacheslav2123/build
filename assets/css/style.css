@@ -181,7 +181,10 @@ a {
 }
 .subcatalog__inner-container {
     width: 100%;
-    margin-top: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 .subcatalog__inner-title {
     font-weight: 700;
@@ -191,7 +194,8 @@ a {
 }
 .subcatalog__inner-price {
     margin-top: 10px;
-    margin-left: 20px;  
+    margin-left: 20px;
+    margin-bottom: 5px;  
 }
 .subcatalog__inner-text {
     color: #111B47;
