@@ -46,7 +46,6 @@ a {
 }
 .header__container {
     width: 100%;
-    padding: 40px 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -465,15 +464,17 @@ a {
         justify-content: end;
     }
     .enter-btn {
-        width: 95px;
-        height: 35px;
+        width: 115px;
+        height: 45px;
         border-radius: 5px;
         background-color: blue;
         color: white;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 11px;
+        font-size: 13px;
+        padding: 0 10px;
+        box-sizing: content-box;
         transition: .3s all;
     }
     #menu__toggle {
