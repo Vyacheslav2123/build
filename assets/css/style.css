@@ -422,7 +422,7 @@ a {
     display: flex;
     gap: 15px;
 }
-.telegram, .whatsapp {
+.telegram, .whatsapp, viber {
     width: 50px;
     height: 50px;
     border-radius: 100px;
@@ -433,6 +433,10 @@ a {
 }
 .whatsapp {
      background: url(../img/whatsapp.svg) center no-repeat;
+     background-size: cover;
+}
+.viber {
+     background: url(../img/viber.svg) center no-repeat;
      background-size: cover;
 }
 @media screen and (max-width: 1269px) { 
