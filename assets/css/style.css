@@ -419,10 +419,13 @@ a {
     bottom: 20px;
     right: 20px;
     flex-direction: column;
+    display: flex;
+    gap: 15px;
 }
 .telegram, .whatsapp {
     width: 50px;
     height: 50px;
+    border-radius: 100px;
 }
 .telegram {
      background: url(../img/telegram.svg) center no-repeat;
