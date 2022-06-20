@@ -94,7 +94,7 @@ a {
 .preview {
     width: 100%;
     height: 650px;
-    background: url(../img/1.png) center no-repeat;
+    background: url(../img/1.jpg) center no-repeat;
     background-size: cover;
     padding-top: 200px;
     transform: translateY(100px);
@@ -178,6 +178,33 @@ a {
     background-size: cover;
     cursor: pointer;
     margin-right: 20px;
+}
+.subcatalog1 {
+    background: url(../img/monolit.jpg) center no-repeat;
+}
+.subcatalog2 {
+    background: url(../img/keramzit.jpg) center no-repeat;
+}
+.subcatalog3 {
+    background: url(../img/krovlya.jpeg) center no-repeat;
+}
+.subcatalog4 {
+    background: url(../img/shtukaturka.jpg) center no-repeat;
+}
+.subcatalog5 {
+    background: url(../img/otmoska.jpg) center no-repeat;
+}
+.subcatalog6 {
+    background: url(../img/trotuar.jpg) center no-repeat;
+}
+.subcatalog7 {
+    background: url(../img/santehnika.jpg) center no-repeat;
+}
+.subcatalog8 {
+    background: url(../img/vanna.jpg) center no-repeat;
+}
+.subcatalog9 {
+    background: url(../img/monolit.jpg) center no-repeat;
 }
 .subcatalog__inner-container {
     width: 100%;
