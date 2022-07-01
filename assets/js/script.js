@@ -1,13 +1,17 @@
 const check = document.querySelector('.main');
+const menu__box = document.querySelector('.menu__box');
 
 check.addEventListener('click', event => {
+    menu__toggle.checked = false;
+});
+menu__box.addEventListener('click', event => {
     menu__toggle.checked = false;
 });
 
 function banner() {
     document.getElementById("banner").classList.add('banner');
 }
-setTimeout(banner, 40000)
+setTimeout(banner, 60000)
 
 function banner_close () {
     document.getElementById("banner").classList.remove('banner');
