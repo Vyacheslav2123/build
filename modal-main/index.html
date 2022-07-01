@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body style="background-color: blue;">
+    <form action="index.php" method="post" onsubmit="myFunction()">
+        <div class="modal__content" id="1">
+            <div class="modal">
+                <div class="modal__container">
+                    <div class="modal__home">
+                        <div class="modal__home-online">Online</div>
+                        <h1 class="modal__home-title">Алексей</h1>
+                        <h3 class="modal__home-text">Главный менеджер</h3>
+                        <h4 class="modal__home-desc">Здравствуйте, меня зовут Алексей,
+                            и я помогу Вам подобрать дом.</h3>
+                        <img src="./img/home.png" alt="" class="modal__home-img">
+                    </div>
+                    <div class="modal__questions" id="1">
+                        <p class="modal__questions-amount">Вопрос 1 из 5</p>
+                        <h1 class="modal__questions-title">1. Какой вам нужен дом</h1>
+                        <div class="modal__questions-container">
+                            <div class="modal__questions-option">
+                                <input type="radio" name="home" class="input__check" value="для постоянного проживания" id="input1">
+                                <img src="./img/questions.png" alt="" class="modal__questions-img">
+                                <p class="modal__questions-text">Для постоянного проживания</p>
+                            </div>
+                            <div class="modal__questions-option" style="margin: 0;">
+                                <input type="radio" name="home" class="input__check" value="для постоянного проживания" id="input1">
+                                <img src="./img/questions.png" alt="" class="modal__questions-img">
+                                <p class="modal__questions-text">Для временного проживания</p>
+                            </div>
+                        </div>
+                        <div class="modal__questions-container">
+                            <div class="modal__questions-option">
+                                <input type="radio" name="home" class="input__check" value="Дачный/загородный дом
+                                на весну-осень" id="input1">
+                                <img src="./img/questions.png" alt="" class="modal__questions-img">
+                                <p class="modal__questions-text">Дачный/загородный дом
+                                    на весну-осень</p>
+                            </div>
+                            <div class="modal__questions-option" style="margin: 0;">
+                                <input type="radio" name="home" class="input__check" value="Гостевой дом" id="input1">
+                                <img src="./img/questions.png" alt="" class="modal__questions-img">
+                                <p class="modal__questions-text">Гостевой дом</p>
+                            </div>
+                        </div>
+                        <p id="draw1"></p>
+                        <div class="btn__container">
+                            <a href="#1" class="back-btn">Назад</a>
+                            <button type="button" class="next-btn" onclick="next1()">Далее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal__content" id="2">
+            <div class="modal">
+                <div class="modal__container">
+                    <div class="modal__home">
+                        <div class="modal__home-online">Online</div>
+                        <h1 class="modal__home-title">Алексей</h1>
+                        <h3 class="modal__home-text">Главный менеджер</h3>
+                        <h4 class="modal__home-desc">Здравствуйте, меня зовут Алексей,
+                            и я помогу Вам подобрать дом.</h3>
+                        <img src="./img/home.png" alt="" class="modal__home-img">
+                    </div>
+                    <div class="modal__questions">
+                        <p class="modal__questions-amount">Вопрос 2 из 5</p>
+                        <h1 class="modal__questions-title">2. Как скоро Вам нужен дом?</h1>
+                        <div class="form__btn">
+                            <div class="check__btn">
+                                <input type="radio" name="time" class="input__check" value="для постоянного проживания" id="input2">
+                                <input type="button" value="В течении недели
+                                (дополнительная скидка 10%)" class="input__btn" />
+                            </div>
+                            <div class="check__btn">
+                                <input type="radio" name="time" class="input__check" value="для постоянного проживания" id="input2">
+                                <input type="button" value="В течении недели
+                                (дополнительная скидка 10%)" class="input__btn" />
+                            </div>
+                            <div class="check__btn">
+                                <input type="radio" name="time" class="input__check" value="для постоянного проживания" id="input2">
+                                <input type="button" value="В течении недели
+                                (дополнительная скидка 10%)" class="input__btn" />
+                            </div>
+                            <div class="check__btn">
+                                <input type="radio" name="time" class="input__check" value="для постоянного проживания" id="input2">
+                                <input type="button" value="В течении недели
+                                (дополнительная скидка 10%)" class="input__btn" />
+                            </div>
+                            <p id="draw2"></p>
+                            <div class="btn__container">
+                                <a href="#1" class="back-btn">Назад</a>
+                                <button type="button" class="next-btn" onclick="next2()">Далее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal__content" id="3">
+            <div class="modal">
+                <div class="modal__container">
+                    <div class="modal__home">
+                        <div class="modal__home-online">Online</div>
+                        <h1 class="modal__home-title">Алексей</h1>
+                        <h3 class="modal__home-text">Главный менеджер</h3>
+                        <h4 class="modal__home-desc">Здравствуйте, меня зовут Алексей,
+                            и я помогу Вам подобрать дом.</h3>
+                        <img src="./img/home.png" alt="" class="modal__home-img">
+                    </div>
+                    <div class="modal__questions">
+                        <p class="modal__questions-amount">Вопрос 3 из 5</p>
+                        <h1 class="modal__questions-title">3. Какое количество этажей необходимо?</h1>
+                        <div class="modal__questions-container">
+                            <div class="modal__questions-option">
+                                <input type="radio" name="floor" class="input__check" value="для постоянного проживания" id="input3">
+                                <img src="./img/questions.png" alt="" class="modal__questions-img">
+                                <p class="modal__questions-text">Для постоянного проживания</p>
+                            </div>
+                            <div class="modal__questions-option" style="margin: 0;">
+                                <input type="radio" name="floor" class="input__check" value="для постоянного проживания" id="input3">
+                                <img src="./img/questions.png" alt="" class="modal__questions-img">
+                                <p class="modal__questions-text">Для временного проживания</p>
+                            </div>
+                        </div>
+                        <div class="modal__questions-container">
+                            <div class="modal__questions-option">
+                                <input type="radio" name="floor" class="input__check" value="Дачный/загородный дом
+                                на весну-осень" id="input3">
+                                <img src="./img/questions.png" alt="" class="modal__questions-img">
+                                <p class="modal__questions-text">Дачный/загородный дом
+                                    на весну-осень</p>
+                            </div>
+                            <div class="modal__questions-option" style="margin: 0;">
+                                <input type="radio" name="floor" class="input__check" value="Гостевой дом" id="input3">
+                                <img src="./img/questions.png" alt="" class="modal__questions-img">
+                                <p class="modal__questions-text">Гостевой дом</p>
+                            </div>
+                        </div>
+                        <p id="draw3"></p>
+                        <div class="btn__container">
+                            <a href="#2" class="back-btn">Назад</a>
+                            <button type="button" class="next-btn" onclick="next3()">Далее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal__content" id="4">
+            <div class="modal">
+                <div class="modal__container">
+                    <div class="modal__home">
+                        <div class="modal__home-online">Online</div>
+                        <h1 class="modal__home-title">Алексей</h1>
+                        <h3 class="modal__home-text">Главный менеджер</h3>
+                        <h4 class="modal__home-desc">Здравствуйте, меня зовут Алексей,
+                            и я помогу Вам подобрать дом.</h3>
+                        <img src="./img/home.png" alt="" class="modal__home-img">
+                    </div>
+                    <div class="modal__questions">
+                        <p class="modal__questions-amount">Вопрос 4 из 5</p>
+                        <h1 class="modal__questions-title">4. Какой бюджет Вы примерно
+                            рассчитываете?</h1>
+                        <div class="form__btn">
+                            <div class="check__btn">
+                                <input type="radio" name="budget" id="input4">
+                                <input type="button" value="В течении недели
+                                (дополнительная скидка 10%)" class="input__btn" />
+                            </div>
+                            <div class="check__btn">
+                                <input type="radio" name="budget" id="input4">
+                                <input type="button" value="В течении недели
+                                (дополнительная скидка 10%)" class="input__btn" />
+                            </div>
+                            <div class="check__btn">
+                                <input type="radio" name="budget" id="input4">
+                                <input type="button" value="В течении недели
+                                (дополнительная скидка 10%)" class="input__btn" />
+                            </div>
+                            <div class="check__btn">
+                                <input type="radio" name="budget" id="input4">
+                                <input type="button" value="В течении недели
+                                (дополнительная скидка 10%)" class="input__btn" />
+                            </div>
+                            <p id="draw4"></p>
+                            <div class="btn__container">
+                                <a href="#3" class="back-btn">Назад</a>
+                                <button type="button" class="next-btn" onclick="next4()">Далее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal__content" id="5">
+            <div class="modal">
+                <div class="modal__container">
+                    <div class="modal__home">
+                        <div class="modal__home-online">Online</div>
+                        <h1 class="modal__home-title">Алексей</h1>
+                        <h3 class="modal__home-text">Главный менеджер</h3>
+                        <h4 class="modal__home-desc">Здравствуйте, меня зовут Алексей,
+                            и я помогу Вам подобрать дом.</h3>
+                        <img src="./img/home.png" alt="" class="modal__home-img">
+                    </div>
+                    <div class="modal__questions">
+                        <p class="modal__questions-amount">Вопрос 5 из 5</p>
+                        <h1 class="modal__questions-title">5. Какую общую площадь дома
+                            рассматриваете?</h1>
+                        <div class="modal__questions-container">
+                            <div class="modal__questions-option">
+                                <input type="radio" name="square" class="input__check" value="для постоянного проживания" id="input5">
+                                <img src="./img/questions.png" alt="" class="modal__questions-img">
+                                <p class="modal__questions-text">Для постоянного проживания</p>
+                            </div>
+                            <div class="modal__questions-option" style="margin: 0;">
+                                <input type="radio" name="square" class="input__check" value="для постоянного проживания" id="input5">
+                                <img src="./img/questions.png" alt="" class="modal__questions-img">
+                                <p class="modal__questions-text">Для временного проживания</p>
+                            </div>
+                        </div>
+                        <div class="modal__questions-container">
+                            <div class="modal__questions-option">
+                                <input type="radio" name="square" class="input__check" value="Дачный/загородный дом
+                                на весну-осень" id="input5">
+                                <img src="./img/questions.png" alt="" class="modal__questions-img">
+                                <p class="modal__questions-text">Дачный/загородный дом
+                                    на весну-осень</p>
+                            </div>
+                            <div class="modal__questions-option" style="margin: 0;">
+                                <input type="radio" name="square" class="input__check" value="Гостевой дом" id="input5">
+                                <img src="./img/questions.png" alt="" class="modal__questions-img">
+                                <p class="modal__questions-text">Гостевой дом</p>
+                            </div>
+                        </div>
+                        <p id="draw5"></p>
+                        <div class="btn__container">
+                            <a href="#4" class="back-btn">Назад</a>
+                            <button type="button" class="next-btn" onclick="next5()">Далее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal__content">
+            <div class="modal">
+                <div class="end__container">
+                    <h2 class="end__title">Спасибо за ответы! <br>
+                        Мы свяжемся с Вами сразу после обработки заказа</h1>
+                    <p class="end__text">Куда Вам будет удобнее отправить?</p>
+                    <div class="end__messengers">
+                        <div class="end__messenger">
+                            <img src="./img/icon.svg" alt="">
+                        </div>
+                        <div class="end__messenger">
+                            <img src="./img/icon.svg" alt="">
+                        </div>
+                        <div class="end__messenger">
+                            <img src="./img/icon.svg" alt="">
+                        </div>
+                        <div class="end__messenger">
+                            <img src="./img/icon.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="form__number">
+                        <input type="tel" class="input__number" placeholder="Введите ваш номер телефона">
+                        <button type="submit" class="end-btn">Получить результат</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="./js/script.js"></script>
+</body>
+</html>

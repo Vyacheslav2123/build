@@ -34,6 +34,10 @@ li {
 a {
     text-decoration: none;
 }
+button {
+    border: none;
+    background-color: initial;
+}
 .header {
     width: 100%;
     height: 100px;
@@ -69,13 +73,14 @@ a {
     height: 35px;
     background: url(../img/logo.png) center no-repeat;
     background-size: cover;
+    margin-left: 20px;
 }
 .hamburger-menu {
     display: none;
 }
 .enter-btn {
-    width: 170px;
-    height: 40px;
+    width: 190px;
+    height: 50px;
     border-radius: 40px;
     background-color: blue;
     color: white;
@@ -83,7 +88,7 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    transition: .3s all;
+    transition: .5s all;
 }
 .enter-btn:hover {
     background-color: white;
@@ -109,13 +114,13 @@ a {
 }
 .preview__title {
     font-size: 70px;
-    color: white;
+    color: #3a4c9c;
     font-weight: 700;
 }
 .preview__subtitle {
     font-size: 22px;
     font-weight: 400;
-    color: white;
+    color: #3a4c9c;
 }
 .preview__extra {
     display: flex;
@@ -131,7 +136,7 @@ a {
     margin-right: 10px;
 }
 .preview__extra-plus-text {
-    color: white;
+    color: #111B47;
     font-weight: 500;
 }
 .preview-btn {
@@ -197,13 +202,37 @@ a {
     background: url(../img/trotuar.jpg) center no-repeat;
 }
 .subcatalog7 {
-    background: url(../img/santehnika.jpg) center no-repeat;
+    background: url(../img/renovation_of_apartments.jpg) center no-repeat;
 }
 .subcatalog8 {
-    background: url(../img/vanna.jpg) center no-repeat;
+    background: url(../img/drilling.jpg) center no-repeat;
 }
 .subcatalog9 {
-    background: url(../img/monolit.jpg) center no-repeat;
+    background: url(../img/fence_installation.jpg) center no-repeat;
+}
+.subcatalog10 {
+    background: url(../img/finishing_work.jpg) center no-repeat;
+}
+.subcatalog11 {
+    background: url(../img/dismantling_works.jpg) center no-repeat;
+}
+.subcatalog12 {
+    background: url(../img/primer.jpg) center no-repeat;
+}
+.subcatalog13 {
+    background: url(../img/facade_work.jpg) center no-repeat;
+}
+.subcatalog14 {
+    background: url(../img/land_and_landscape_works.jpg) center no-repeat;
+}
+.subcatalog15 {
+    background: url(../img/apartment_renovation.jpeg) center no-repeat;
+}
+.subcatalog16 {
+    background: url(../img/brickwork.jpg) center no-repeat;
+}
+.subcatalog17 {
+    background: url(../img/siding_and_block_house.jpeg) center no-repeat;
 }
 .subcatalog__inner-container {
     width: 100%;
@@ -215,8 +244,11 @@ a {
 .subcatalog__inner-title {
     font-weight: 700;
     font-size: 35px;
+    background-color: #111B47;
     color: white;
-    margin-left: 20px;
+    padding-left: 20px;
+    font-family: 'Playfair Display';
+    border-radius: 10px;
 }
 .subcatalog__inner-price {
     margin-top: 10px;
@@ -224,7 +256,7 @@ a {
     margin-bottom: 5px;  
 }
 .subcatalog__inner-text {
-    color: #111B47;
+    color: white;
     font-weight: 700;
     line-height: 1;
 }
@@ -280,10 +312,9 @@ a {
     display: flex;
     justify-content: center;
     margin-top: 80px;
+    padding: 0 20px;
 }
 .professional__inner {
-    width: 305px;
-    height: 305px;
     margin-right: 90px;
     display: flex;
     justify-content: center;
@@ -309,7 +340,7 @@ a {
     width: 100%;
     height: 400px;
     margin-top: 150px;
-    background-color: #111B47;
+    background-color: #3a4c9c;
 }
 .request__container {
     width: 100%;
@@ -414,6 +445,36 @@ a {
 .address__inner-img {
     margin-right: 10px;
 }
+.banner {
+    width: 100%;
+    height: 100vh;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 500;
+    bottom: 1px;
+    right: 1px;
+}
+.banner__container {
+    width: 80%;
+    height: 70%;
+    background-color: #3a4c9c;
+    border-radius: 20px;
+}
+.banner__close {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.banner__btn {
+    color: white;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
 .messengers {
     position: fixed;
     bottom: 20px;
@@ -439,6 +500,154 @@ a {
      background: url(../img/viber.svg) center no-repeat;
      background-size: cover;
 }
+
+.slogan-wrap {
+    background-color: #3399CC;
+    padding: 20px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: -1px;
+    padding-top: 120px;
+}
+.slogan-container {
+    margin: 0 auto;
+    max-width: 978px;
+}
+.slogan-wrap .slogan {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 37px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.slogan-wrap .slogan span {
+    font-size: 17px;
+    line-height: 24px;
+    display: block;
+    padding-top: 5px;
+    text-transform: none;
+    font-weight: normal;
+}
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    margin-top: 100px;
+}
+.content__inner-img {
+   margin-right: 20px;
+}
+.content__img {
+    width: 470px;
+    height: 400px;
+}
+.info__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 50px;
+    margin-top: 40px;
+}
+.info__content-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.info__content-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.info__content-desc {
+    font-weight: 400;
+    font-size: 16px;
+    list-style-type: initial;
+    margin-top: 2px;
+}
+li > img{
+    width: 100% !important;
+    border-radius: 10px;
+}
+.sim-slider {
+    max-width: 500px;
+    min-width: 220px;
+    margin: 20px auto;
+    padding: 30px 50px;
+    border: 1px solid #ccd;
+    background-color: white;
+}
+.sim-slider {
+    position: relative;
+}
+.sim-slider-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+}
+.sim-slider-element {
+    width: 100%;
+    transition: opacity 1s ease-in;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    display: block;
+}
+div.sim-slider-arrow-left,
+div.sim-slider-arrow-right {
+    width: 22px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.6;
+    z-index: 4;
+}
+div.sim-slider-arrow-left {
+    left: 10px;
+    top: 40%;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-left.png") no-repeat;
+}
+div.sim-slider-arrow-right {
+    right: 10px;
+    top: 40%;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-right.png") no-repeat;
+}
+div.sim-slider-arrow-left:hover {
+    opacity: 1.0;
+}
+  
+div.sim-slider-arrow-right:hover {
+    opacity: 1.0;
+}
+div.sim-slider-dots {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    text-align: center;
+}
+span.sim-dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    padding: 0;
+    display: inline-block;
+    background-color: #BBB;
+    border-radius: 5px;
+    cursor: pointer;
+}
 @media screen and (max-width: 1269px) { 
     h1 {
         font-size: 35px !important;
@@ -453,7 +662,7 @@ a {
         font-size: 13px;
     }
     .header {
-        height: 60px;
+        height: 90px;
     }
     .hamburger-menu {
         display: block;
@@ -465,27 +674,28 @@ a {
         justify-content: end;
     }
     .enter-btn {
-        width: 115px;
-        height: 45px;
+        width: auto;
+        height: 55px;
         border-radius: 5px;
         background-color: blue;
         color: white;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 13px;
+        font-size: 16px;
         padding: 0 10px;
         box-sizing: content-box;
+        margin-right: 5px;
         transition: .3s all;
     }
     #menu__toggle {
-        opacity: 0;
+        display: none;
     }
     .menu__btn {
         display: flex; 
         align-items: center;  
         position: fixed;
-        top: 20px;
+        top: 35px;
         left: 20px;
         width: 26px;
         height: 26px;
@@ -533,7 +743,7 @@ a {
         text-decoration: none;
     }
     .menu__item:hover {
-        color: white;
+        color: #111B47;
     }
     #menu__toggle:checked ~ .menu__btn > span {
         transform: rotate(45deg);
@@ -598,7 +808,6 @@ a {
     }
     .subcatalog__inner-title {
         font-size: 25px;
-        margin-left: 15px;
     }
     .benefits__container {
         flex-direction: column;
@@ -613,10 +822,11 @@ a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 20px;
+        padding: 0;
     }
     .professional__inner {
         margin-right: 0;
-        margin-bottom: 200px;
     }
     .request {
         margin: 0;
@@ -644,5 +854,32 @@ a {
     }
     .footer {
         margin-top: 30px;
+    }
+    .banner {
+        top: 100px;
+    }
+    .content {
+        flex-direction: column;
+        padding: 0 5px;
+        margin-top: 50px;
+    }
+    .content__inner-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .content__img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .slogan-wrap .slogan {
+        font-size: 13px;
+    }
+    .slogan-wrap .slogan span {
+        font-size: 10px;
+    }
+    .sim-slider {
+        max-width: 400px;
     }
 }
